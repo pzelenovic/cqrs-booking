@@ -20,7 +20,7 @@ Hence,
 3. Forming a mental model, I suppose I'll need a collection of rooms, and a collection of clients. Rooms have bookings, each of which is bound to a specific client, who commanded the booking to the system. Prior to that he has probably queried the system to show him a collection of rooms that are free, for the specified time interval in the future.
 4. At some point in time, while writing this, I thought to myself I want to do this in Hexagonal Architecture. I'm probably going to make many mistakes, and might not even fully comply with it in the end, but the lessons along the journey is what matters.
 5. I also want to TDD this thing, we'll see if I manage, and what mistakes I'll make on the way.
-6. I'm considering to even BDD this, using Cypress.
+6. I'm considering to even BDD this, using Cypress. Actually I'm not going to BDD it, but at some point I will write some acceptance tests using Cypress.
 
 Here's some reasoning about the structure of the thing I am supposed to build:
 
